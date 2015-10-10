@@ -1,0 +1,144 @@
+body {
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #292F33;
+  background-color: #f5f8fa;
+  padding: 15px;
+  margin: 20px;
+}
+
+p {
+  margin: 10px;
+  word-wrap: break-word;
+}
+
+.title, .tagline {
+  text-align: center;
+}
+
+.tagline {
+  font-weight: 300;
+  font-family: "HelveticaNeueLight", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #8899A6;
+}
+
+form {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.form-container {
+  padding: 10px 0px;
+  max-width: 600px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #CBEFFB;
+  border-radius: 6px 6px 0px 0px;
+  background-color: #EAF8FD;
+}
+
+#show-info, #stats {
+  max-width: 600px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#show-info h3 {
+  margin-bottom: 5px;
+}
+
+#show-info p {
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
+}
+
+input {
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+.button {
+  width: 110px;
+  margin: 5px 10px;
+}
+
+.text-field {
+  border: 1px solid #CBEFFB;
+  border-radius: 3px;
+  width: 190px;
+  outline: none;
+
+}
+
+label {
+  color: #2FC2EF;
+}
+
+.center {
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+}
+
+.tweet-container {
+  height: 400px;
+  max-width: 600px;
+  overflow-y: auto;
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #E1E8ED;
+  border-top: 0;
+  border-radius: 0 0 6px 6px;
+}
+
+.tweet {
+  border-bottom: 1px solid #E1E8ED;
+  padding: 15px;
+}
+
+.top-tweet {
+  max-width: 600px;
+  background-color: #FFFFFF;
+  border: 1px solid #E1E8ED;
+  border-radius: 6px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-tweet p {
+  padding: 15px;
+}
+
+.comment {
+  color: #2FC2EF;
+  border-bottom: 1px solid #E1E8ED;
+  padding: 15px;
+}
+
+.err {
+  color: #C33;
+  border-bottom: 1px solid #E1E8ED;
+  padding: 15px;
+}
+
+.handle {
+  font-size: 13px;
+  color: #8899A6;
+}
+
+.form-input {
+  float: left;
+  width: 198px;
+}
+
+.subheader {
+  font-weight: normal;
+  color: #8899A6;
+  margin: 0;
+}

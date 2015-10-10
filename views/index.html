@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>#LiveTweetViewer</title>
+    <link rel="stylesheet" href="/livetweet.css">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  </head>
+  <body>
+    <h1 class="title">#LiveTweetViewer</h1>
+    <h3 class="tagline">Replay live Tweets for TV shows you're watching later.</h3>
+    <div class="center form-container">
+    <form action="/" id="queryForm">
+      <div class="form-input">
+        <label>
+          <b>Show Name*</b>
+          <br/>
+          <input class="text-field" type="text" name="show" placeholder="Late Show with Stephen Colbert" id="show"/>
+        </label>
+      </div>
+      <div class="form-input">
+        <label>
+          <b>Hashtag*</b>
+          <br/>
+          <input class="text-field" type="text" name="hashtag" placeholder="#LSSC" id="hashtag"/>
+        </label>
+      </div>
+      <div class="form-input">
+        <label>Airdate<br/>
+          <input class="text-field" type="text" name="airdate" placeholder="MM-DD-YYYY" id="airdate"/>
+        </label>
+      </div>
+      <br/>
+        <input id="get-tweets" class="button" type="submit" value="Get Tweets" />
+        <button class="button" type="button" id="play">Play</button>
+    </form>
+  </div>
+    <div class="tweet-container" id="tweets"></div>
+      <h2 class="more-info center">Show Overview</h2>
+      <div class="more-info" id="show-info"></div>
+      <h2 class="more-info center">Top Tweets</h2>
+      <div class="more-info" id="stats"></div>
+    <script src="/livetweet.js"></script>
+  </body>
+</html>

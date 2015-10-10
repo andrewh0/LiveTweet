@@ -1,0 +1,30 @@
+{
+  "name": "LiveTweet",
+  "version": "0.0.0",
+  "description": "Replay live Tweets for TV shows you're watching later.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewh0/LiveTweet.git"
+  },
+  "author": "Andrew Ho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewh0/LiveTweet/issues"
+  },
+  "homepage": "https://github.com/andrewh0/LiveTweet",
+  "engines": {
+    "node": "0.10.25"
+  },
+  "dependencies": {
+    "express": "~4.13.3",
+    "body-parser": "~1.13.3",
+    "twit": "~2.1.0",
+    "hbs": "~3.1.0",
+    "request": "~2.61.0"
+  }
+}
