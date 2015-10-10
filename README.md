@@ -7,10 +7,11 @@ This app combines Tweets from all timezones, so you can see reactions from the E
 
 ## Usage
 1. Clone the repository.
-2. Navigate to the directory and start the server with ```node server.js```
-3. Visit [http://localhost:3000](http://localhost:3000) in the browser.
-4. Type in the name of a show, a hashtag, and (optionally) an airdate.
-5. Click __Get Tweets__, wait for the Tweets to load, and click __Play__. (Don't forget to start playing the episode at the same time!)
+2. Open server.js and add in your Twitter consumer key and consumer secret.
+3. Navigate to the directory and start the server with ```node server.js```
+4. Visit [http://localhost:3000](http://localhost:3000) in the browser.
+5. Type in the name of a show, a hashtag, and (optionally) an airdate.
+6. Click __Get Tweets__, wait for the Tweets to load, and click __Play__. (Don't forget to start playing the episode at the same time!)
 
 __Note:__ Pausing Adblock during usage is recommended, as it may block certain elements of the page.
 
